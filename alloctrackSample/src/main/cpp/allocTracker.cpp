@@ -7,6 +7,7 @@
 #include <ctime>
 #include <cstdlib>
 #include "fb/fbjni/fbjni.h"
+#include <sys/unistd.h>
 
 pthread_t pthread_self(void);
 
